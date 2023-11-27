@@ -11,7 +11,7 @@ payload:
   "title": "this is a cool task"
 }
 
-put - http://127.0.0.1:5000/tasks/4
+put - http://127.0.0.1:5000/tasks/{id}
 <br /><br />
 payload:
 {
@@ -20,4 +20,4 @@ payload:
 
 get - http://127.0.0.1:5000/tasks
 
-delete - http://127.0.0.1:5000/tasks/4
+delete - http://127.0.0.1:5000/tasks/{id}
